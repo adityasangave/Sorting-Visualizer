@@ -19,23 +19,42 @@
             </div>
             <div class="options">
                 <div class="sort-options option-contents">
-                    <button id="bubble-sort" class="sort button">
+                    <button id="bubble-sort" class="sort-button">
                         Bubble Sort
                     </button>
-                    <button id="bubble-sort" class="sort button">
+                    <button id="insertion-sort" class="sort-button">
                         Insertion Sort
+                    </button>
+                    <button id="selection-sort" class="sort-button">
+                        Selection Sort
                     </button>
                 </div>
                 <div class="general-options option-contents">
                     <div class="bars-count">
-                        <button id="bubble-sort" class="sort button">
-                            Insertion Sort
-                        </button>
+                        <label>No. Of Bars</label>
+                        <select name="bar-size" id="bar-count">
+                            <option value="none" selected disabled hidden>Select an Option</option>
+                            <option value="5">5</option>
+                            <option value="5">10</option>
+                            <option value="5">15</option>
+                            <option value="5">20</option>
+                            <option value="5">25</option>
+                            <option value="5">30</option>
+                            <option value="5">35</option>
+                        </select>
                     </div>
                     <div class="sort-speed">
-                        <button id="bubble-sort" class="sort button">
-                            Insertion Sort
-                        </button>
+                        <label>Sorting Speed</label>
+                        <select name="sort-speed" id="sorting-speed">
+                            <option value="none" selected disabled hidden>Select an Option</option>
+                            <option value="100">100ms</option>
+                            <option value="150">150ms</option>
+                            <option value="300">300ms</option>
+                            <option value="350">350ms</option>
+                            <option value="500">500ms</option>
+                            <option value="600">600ms</option>
+                            <option value="1000">1000ms</option>
+                        </select>
                     </div>
                 </div>
             </div>

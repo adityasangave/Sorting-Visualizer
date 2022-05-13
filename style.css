@@ -17,16 +17,35 @@
 .options {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 80%;
     margin: auto;
+}
+
+.general-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sort-button {
+    width: 40%;
+    margin: 0px 20px;
+}
+
+.bars-count {
+    width: 40%;
+}
+
+.sort-speed {
+    width: 40%;
 }
 
 .option-contents {
     display: flex;
+    justify-content: space-between;
 }
 
 .sorting-container {
-    width: 50%;
+    width: 90%;
     display: flex;
     justify-content: center;
     border: 1px solid rgb(238, 238, 238);
